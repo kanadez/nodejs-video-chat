@@ -25,7 +25,7 @@ var peer = new Peer({
     host: 'chat.ggdev.site',
     port: 443,
     secure: true,
-    
+    path: "/",
 });
 
 let myVideoStream;
